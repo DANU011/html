@@ -1,0 +1,113 @@
+* {
+    font-family: "맑은 고딕";
+}
+
+img{
+    border-radius: 50%;
+}
+
+body {
+    margin: 0px;
+    padding: 0px;
+}
+header, footer {
+    background-color:rgb(26, 92, 69);
+    color: white;
+    text-align: center; 
+    padding: 15px;
+}
+header {
+    width: 100%;
+    height: 150px;
+    text-align: left;
+}
+header > div {
+    float: left;
+}
+header img {
+    height: 110px;
+    padding: 20px;
+}
+nav {
+    clear: both;
+    background-color:rgb(209, 238, 224);
+    height: 30px;
+    text-align: left;
+}
+a:link {
+    color: rgb(1, 31, 1);
+    text-decoration: none;
+}
+a:visited {
+    color: rgb(1, 31, 1);
+}
+a:hover {
+    background-color: white;
+}
+section {
+    /*float: left;*/
+    display: block;
+    width: 100%;
+    height: 250px;
+    border-bottom: 1px dotted gray;
+}
+footer {
+    clear: both;
+    width: 100%;
+    height: 50px;
+}
+nav a {
+    font-weight: bold;
+    text-align: center;
+    padding: 5px;
+    height: 30px;
+    width: 100px;
+    display: inline-block;
+}
+.c1, .c2, .c3, .c4 {
+    border-style: solid;
+    border-width: 0px 0px 0px 10px;
+    font-size: 20px;
+    color: black;
+    padding: 15px;
+}
+.c1 {
+    border-color: rgb(183, 61, 61);
+}
+.c2 {
+    border-color: rgb(208, 83, 197);
+}
+.c3 {
+    border-color: rgb(53, 185, 221);
+}
+.c4 {
+    border-color: rgb(38, 185, 65);
+}
+section {
+    line-height: 25px; 
+    padding: 5px;
+    margin: 5px;
+}
+#s1 ol {
+    list-style-type: none;
+}
+#p1 {
+    color: rgb(15, 78, 15);
+}
+table {
+    width: 70%;
+    border: solid 1px black;
+    border-collapse: collapse;
+}
+td, th {
+    border: solid 1px rgb(46, 46, 46);
+    padding: 5px;
+    font-size: 0.8em;
+    text-align: center;
+}
+thead {
+    background-color: rgb(173, 216, 173);
+}
+caption {
+    padding-bottom: 10px;
+}
